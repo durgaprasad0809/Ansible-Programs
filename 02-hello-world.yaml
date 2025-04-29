@@ -3,4 +3,4 @@
   tasks:
     - name: Print the hello world
       ansible.builtin.debug:
-        message: "Hello World This is Ansible YAML Program Script"
+        msg: "Hello World This is Ansible YAML Program Script"
