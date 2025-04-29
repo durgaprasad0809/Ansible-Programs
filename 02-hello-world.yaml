@@ -2,5 +2,5 @@
 hosts: web
 tasks:
  - name: Print the hello world
- ansible.builtin.debug
+ ansible.builtin.debug:
  message: "Hello World This is Ansible YAML Program Script"

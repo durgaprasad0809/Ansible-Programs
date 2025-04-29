@@ -3,7 +3,7 @@ hosts: web
 becomes: yes # For given permissions to Sudo user
 tasks:
   - name: To Install the nginx Service
-  ansible.builtin.service module
+  ansible.builtin.service module:
   - name: nginx
   state: present # Present - installed and absent - Removed
   enabled: yes
