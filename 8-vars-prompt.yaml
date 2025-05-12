@@ -10,6 +10,7 @@
     private: false # it is not confidential information
   - name: TRAINER
     prompt: Please enter trainer name
+    private: false # it is not confidential information
   tasks:
   - name: print course information
     ansible.builtin.debug:
