@@ -3,8 +3,8 @@
   connection: local #No Need Credtionals, mangiing it's own node
   tasks: 
   - name: Play 1 and Task1
-     ansible.builtin.debug:
-      msg: "Hello from PLay1 and Task1"
+    ansible.builtin.debug:
+     msg: "Hello from PLay1 and Task1"
 - name: Play2
   hosts: local
   connection: localhost
